@@ -1,0 +1,53 @@
+.loader-page{
+
+position:fixed;
+
+inset:0;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+flex-direction:column;
+
+background:#020617;
+
+z-index:9999;
+
+}
+
+.loader{
+
+width:70px;
+
+height:70px;
+
+border:7px solid #334155;
+
+border-top:7px solid #6366f1;
+
+border-radius:50%;
+
+animation:spin 1s linear infinite;
+
+}
+
+.loader-page h2{
+
+color:white;
+
+margin-top:30px;
+
+}
+
+@keyframes spin{
+
+100%{
+
+transform:rotate(360deg);
+
+}
+
+}

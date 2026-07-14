@@ -1,0 +1,39 @@
+.featured{
+
+padding:100px 8%;
+
+background:#0f172a;
+
+}
+
+.featured h2{
+
+font-size:42px;
+
+color:white;
+
+text-align:center;
+
+margin-bottom:15px;
+
+}
+
+.featured p{
+
+text-align:center;
+
+color:#cbd5e1;
+
+margin-bottom:60px;
+
+}
+
+.course-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:35px;
+
+}

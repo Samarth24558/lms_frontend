@@ -1,0 +1,91 @@
+.certificate-page {
+  padding: 32px;
+  min-height: 100vh;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.certificate-header {
+  margin-bottom: 24px;
+}
+
+.certificate-header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.certificate-header p {
+  margin-top: 8px;
+  color: #94a3b8;
+}
+
+.certificate-success,
+.certificate-error {
+  margin-bottom: 20px;
+  padding: 16px 20px;
+  border-radius: 16px;
+}
+
+.certificate-success {
+  background: #134e4a;
+  color: #a7f3d0;
+}
+
+.certificate-error {
+  background: #881337;
+  color: #fecaca;
+}
+
+.certificate-section {
+  margin-bottom: 28px;
+}
+
+.certificate-section h2 {
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.certificate-empty {
+  background: #111827;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.certificate-list,
+.course-list {
+  display: grid;
+  gap: 18px;
+}
+
+.certificate-card,
+.course-card {
+  background: #111827;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.course-card p,
+.certificate-card p {
+  color: #cbd5e1;
+  margin: 8px 0 0;
+}
+
+.certificate-button {
+  background: #7c3aed;
+  color: #fff;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.certificate-button:disabled {
+  background: #6b7280;
+  cursor: default;
+}

@@ -1,0 +1,97 @@
+.pagination{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:10px;
+
+margin-top:60px;
+
+flex-wrap:wrap;
+
+}
+
+.pagination button{
+
+width:45px;
+
+height:45px;
+
+border:none;
+
+border-radius:12px;
+
+background:rgba(255,255,255,.05);
+
+color:white;
+
+cursor:pointer;
+
+transition:.3s;
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+.pagination button:first-child,
+.pagination button:last-child{
+
+width:auto;
+
+padding:0 20px;
+
+}
+
+.pagination button:hover:not(:disabled){
+
+background:#6366f1;
+
+}
+
+.pagination .active{
+
+background:linear-gradient(
+135deg,
+#6366f1,
+#8b5cf6
+);
+
+}
+
+.pagination button:disabled{
+
+opacity:.4;
+
+cursor:not-allowed;
+
+}
+
+@media(max-width:768px){
+
+.pagination{
+
+gap:6px;
+
+}
+
+.pagination button{
+
+width:40px;
+
+height:40px;
+
+font-size:14px;
+
+}
+
+.pagination button:first-child,
+.pagination button:last-child{
+
+padding:0 15px;
+
+}
+
+}

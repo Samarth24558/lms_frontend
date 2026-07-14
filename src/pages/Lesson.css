@@ -1,0 +1,37 @@
+.lesson-page {
+  max-width: 1300px;
+  margin: auto;
+  padding: 120px 6%;
+  color: white;
+}
+
+.lesson-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+.lesson-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.lesson-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.lesson-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .lesson-layout {
+    grid-template-columns: 1fr;
+  }
+}
