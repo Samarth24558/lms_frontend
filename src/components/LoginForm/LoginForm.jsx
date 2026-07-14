@@ -65,7 +65,7 @@ export default function LoginForm() {
 
             </button>
 
-            <a href="/register">Don't have an account? Register</a>
+            <a href="/lms_frontend/#/register">Don't have an account? Register</a>
 
         </form>
 
