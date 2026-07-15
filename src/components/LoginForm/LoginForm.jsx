@@ -5,6 +5,7 @@ import { loginSuccess } from "../../redux/authSlice";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import "./LoginForm.css";
+import { Link } from "react-router-dom";
 
 export default function LoginForm() {
 
@@ -65,8 +66,9 @@ export default function LoginForm() {
 
             </button>
 
-            <a href="/lms_frontend/#/register">Don't have an account? Register</a>
-
+<Link to="/register">
+  Don't have an account? Register
+</Link>
         </form>
 
     );
