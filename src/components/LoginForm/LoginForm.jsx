@@ -70,7 +70,7 @@ export default function LoginForm() {
   Don't have an account? Register
 </Link> */}
 
-<p>Only admin can register contact admin</p>
+<p>Admin can register new users</p>
         </form>
 
     );
