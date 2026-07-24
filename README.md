@@ -14,3 +14,29 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Steps to strat project on your machine
+
+Step 1: Clone the repo
+
+```bash
+git clone https://github.com/Samarth24558/lms_frontend.git
+```
+
+Step 2: cd into the cloned repo and run:
+
+```bash
+npm install
+```
+
+Step 3: Start the chat app (development mode)
+
+```bash
+npm run dev
+```
+
+Step 4: Start the chat app
+
+```bash
+npm start
+```
