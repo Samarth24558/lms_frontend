@@ -66,9 +66,11 @@ export default function LoginForm() {
 
             </button>
 
-<Link to="/register">
+{/* <Link to="/register">
   Don't have an account? Register
-</Link>
+</Link> */}
+
+<p>Only admin can register contact admin</p>
         </form>
 
     );
