@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API = axios.create({
 
-    baseURL: "https://lms-backend-wis7.onrender.com/api/auth/login"
+    baseURL: "https://lms-backend-wis7.onrender.com/api",
 
 });
 
